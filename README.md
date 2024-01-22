@@ -44,3 +44,11 @@ services:
       - 3000:3000
     ...
 ```
+
+The compose file defines an application with three services: frontend, backend, and db. When deploying, Docker Compose maps port 3000 of the frontend service container to port 3000 of the host.
+```
+ℹ️ INFO
+For compatibility purposes across AMD64 and ARM64 architectures, we use MariaDB instead of MySQL.
+You can still use the MySQL image by uncommenting the relevant line in the Compose file:
+#image: mysql:8.0.27
+```
