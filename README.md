@@ -21,9 +21,9 @@ Explore this sample using the Dev Environments feature of Docker Desktop version
 │   ├── ...
 │   └── Dockerfile
 └── README.md
-
+```
 ##compose.yaml
-
+```
 services:
   backend:
     build: backend
@@ -43,3 +43,4 @@ services:
     ports:
       - 3000:3000
     ...
+```
