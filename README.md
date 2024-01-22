@@ -22,7 +22,7 @@ Explore this sample using the Dev Environments feature of Docker Desktop version
 │   └── Dockerfile
 └── README.md
 ```
-###compose.yaml
+**compose.yaml:**
 ```
 services:
   backend:
